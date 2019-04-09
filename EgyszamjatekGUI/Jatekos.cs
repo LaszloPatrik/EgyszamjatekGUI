@@ -10,7 +10,7 @@ namespace EgyszamjatekGUI
     {
         public string nev;
         public List<int> tippek;
-        public int fordulokSzama { get { return tippek.Count; } }
+        public int fordulok { get { return tippek.Count; } }
         public Jatekos(string sor)
         {
             string[] t = sor.Split();

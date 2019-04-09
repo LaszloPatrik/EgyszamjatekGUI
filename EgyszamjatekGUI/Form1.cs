@@ -47,7 +47,7 @@ namespace EgyszamjatekGUI
                     MessageBox.Show("Van már ilyen nevű játékos!", "Hiba!");
                     return;
                 }
-                if (jatekosok[0].fordulokSzama != tbTippek.Text.Split(' ').Where(x => x.Length != 0).ToList().Count)
+                if (jatekosok[0].fordulok != tbTippek.Text.Split(' ').Where(x => x.Length != 0).ToList().Count)
                 {
                     MessageBox.Show("A tippek száma nem megfelelő!", "Hiba!");
                     return;
